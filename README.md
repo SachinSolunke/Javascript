@@ -1,42 +1,4 @@
-# Javascript
 
-
-Navigation Menu
-kamranahmedse
-design-patterns-for-humans
-
-Code
-Issues
-5
-Pull requests
-11
-Actions
-Projects
-Security
-Insights
-Owner avatar
-design-patterns-for-humans
-Public
-kamranahmedse/design-patterns-for-humans
-Name		
-fellalli
-fellalli
-Fix link in readme.md (#143)
-7023f30
- · 
-3 months ago
-.github
-Add banner
-2 years ago
-readme.md
-Fix link in readme.md (#143)
-3 months ago
-Repository files navigation
-README
-
-
-
-🎉 Ultra-simplified explanation to design patterns! 🎉
 
 A topic that can easily make anyone's mind wobble. Here I try to make them stick in to your
 mind (and maybe mine) by explaining them in the simplest way possible.
@@ -96,7 +58,7 @@ Real world example
 
 Consider, you are building a house and you need doors. You can either put on your carpenter clothes, bring some wood, glue, nails and all the tools required to build the door and start building it in your house or you can simply call the factory and get the built door delivered to you so that you don't need to learn anything about the door making or to deal with the mess that comes with making it.
 
-In plain words
+🔗 In plain words
 
 Simple factory simply generates an instance for client without exposing any instantiation logic to the client
 
@@ -108,7 +70,7 @@ Programmatic Example
 
 First of all we have a door interface and the implementation
 
-interface Door
+ interface Door
 {
     public function getWidth(): float;
     public function getHeight(): float;
